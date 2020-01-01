@@ -255,12 +255,12 @@ def apply_gcn(iters,X_,y_,A_,laplacian_,lamb,U_):
     p_dropout = 0.8
     
     f1_scores = []
-    print("Computing")
+    #print("Computing")
     # Start
     for i in range(iters):
         # display the processing level
-        if( i != 0 and i%(iters*0.1) == 0):
-            print(str(int(i*100/iters))+" %")
+        #if( i != 0 and i%(iters*0.1) == 0):
+        #    print(str(int(i*100/iters))+" %")
 
         # prepare for masking
         n_points = X.shape[0]
@@ -306,7 +306,7 @@ def apply_gcn(iters,X_,y_,A_,laplacian_,lamb,U_):
         f1_scores.append(sm.f1_score(test_labels,test_pred))
 
         
-    print("100 %")
+    #print("100 %")
     # compute mean of all obtained scores
     mean = np.mean(f1_scores)
     # compute variance of all obtained scores
