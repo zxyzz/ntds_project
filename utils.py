@@ -43,11 +43,9 @@ def spectral_decomposition(laplacian: np.ndarray):
 
 # Compute the GFT of the signal
 def GFT(signal, U):
-    print(len(signal))
     return U.T @ signal
 # Compute the inverse of GFT of the signal
 def iGFT(fourier_coefficients, U):
-    # Your code here
     return U @ fourier_coefficients
 
 # Apply GFT to x and filter x based on the spectral response

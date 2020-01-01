@@ -1,14 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
-<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd">
-  <meta lastmodifieddate="2020-01-01">
-    <creator>NetworkX 2.4</creator>
-  </meta>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
   <graph defaultedgetype="undirected" mode="static" name="">
     <attributes class="node" mode="static">
       <attribute id="0" title="result" type="double" />
       <attribute id="1" title="agi" type="double" />
       <attribute id="2" title="unemployment_rate" type="double" />
     </attributes>
+    <meta>
+      <creator>NetworkX 2.3</creator>
+      <lastmodified>01/01/2020</lastmodified>
+    </meta>
     <nodes>
       <node id="0.0" label="0">
         <attvalues>
