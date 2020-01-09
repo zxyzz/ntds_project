@@ -23,7 +23,7 @@ This is the main file of the project. It is constructed by three following secti
    Dataset is loaded and cleaned in the subsection *I.1*. Then a deep study of dataset can be found at the subsection *I.2*. 
 
  - II. Creation of simple graph following structure of migration & first attempt to predict county type<br/>
-   Diverse graphs are created and studied from the dataset to understand the structure of a migration. Graphs are studied through observations using Gephi, degree of county (i.e node of the graph), degree neighboring nodes of county and  ----- Graph observation(Part of anshul?)----
+   Diverse graphs are created and studied from the dataset to understand the structure of a migration. Graphs are studied through observations using Gephi, degree of county (i.e node of the graph), degree neighboring nodes of a county. A further graph exploration is also developed in this part about the graphs that have been developed in this section. 
  
  - III. Study of a similarity graph for prediction<br/>
    In this section, we tried to do more sophisticated methods such as GCN and Fourier with Laplacian analyse on different graphs.
