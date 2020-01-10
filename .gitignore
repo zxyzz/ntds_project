@@ -1,3 +1,5 @@
 NTDS_Data/
 *.csv
 x_x_old/
+__pycache__/
+
