@@ -6,6 +6,9 @@
 To run the project, you will need python3 along with *ntds_2019* environment. The codes are tested on *Python 3.7.3*.
 Dataset can be found at https://drive.google.com/open?id=1Ioyg4-oq0pFppWk9JBIvTj8165BWnAtk (link to a Drive where all the necessary dataset for the project have been saved). 
 
+In order to run the entire project, the abosute path to the location of the data need to be updated in the file Project.ijpnb. 
+When the project was tested, all the files were saved into a single folder named NTDS_Data. 
+
 ### Goal of the project
 The main goal of this project is to study the inter-county migration in the US for the year 2016 and use the latter study to try to predict the outcome of the Presidential Result at the County level. 
 
